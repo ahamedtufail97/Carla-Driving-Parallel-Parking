@@ -1,6 +1,6 @@
 # Carla-Driving-Parallel-Parking
 The Python API file simulates a vehicle driving in Town5 and parallel park the vehicle by wapointing.
-'''
+
 import rospy
 import carla
 import time
@@ -14,6 +14,8 @@ parked_locations = [carla.Transform(carla.Location( y=-41.3,x=-118.2, z=0.05), c
                     carla.Transform(carla.Location( y=-22.4,x=-118.2, z=0.05), carla.Rotation(yaw=270)),
                     carla.Transform(carla.Location( y=-48.4,x=-118.2, z=0.05), carla.Rotation(yaw=270)),
                     carla.Transform(carla.Location( y=-16.4,x=-118.2, z=0.05), carla.Rotation(yaw=270))]
+                    
+                   
 class CarlaParkVehicle(object):
     """
     class responsable of:
