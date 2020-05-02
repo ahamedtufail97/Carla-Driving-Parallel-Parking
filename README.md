@@ -6,3 +6,4 @@ import carla
 import time
 import random
 from carla_msgs.msg import CarlaWorldInfo
+	aa
